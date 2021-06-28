@@ -1,0 +1,68 @@
+.container{
+    margin: auto;
+    text-align: center;
+    position:relative;
+}
+
+.navbar{
+    justify-content: center;
+}
+
+
+// Xtra
+span{
+    font-weight: bolder;
+    opacity:1;
+    color:black;
+}
+.intro{
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color:hsl(0, 0%, 59%);
+}
+
+#invalidEmail{
+    color:rgb(243, 104, 12);
+    font-size: small;
+    display: none;
+}
+#emptyEmail{
+    color:red;
+    font-size: small;
+    display:none;
+    
+}
+// button and input styling.
+input{
+    width:20rem;
+    height:2.5rem;
+    border-radius:5rem;
+    border:0.1rem solid #0d6efd;
+    color:#0d6efd;
+}
+
+.btn{
+    border-radius: 5rem;
+    width:10rem;
+    box-shadow: 2px 1px 4px black;
+}
+.btn:hover{
+    opacity:0.7;
+}
+.intro::selection{
+    border-radius:5rem;
+    border:0.1rem solid #0d6efd;
+}
+// lower icons
+.color{  
+    color:#0d6efd;
+    height: 20px;
+    width:30px;
+    border-radius: 100%;
+}
+
+.color:hover{
+    cursor: pointer;
+    color:white;
+    background-color: #0d6efd;
+}
